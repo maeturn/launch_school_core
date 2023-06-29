@@ -1,0 +1,38 @@
+=begin
+
+given two intgers
+  -add the two integers together
+  -return the sum
+
+given an array of strings
+   -create an empty string variable
+   -iterate through the length of the array
+   -add each index to the string variable
+
+given an array of integers
+  -create a new empty array
+  -iterate through the array of integers
+  -if index is even, add the element to the new array
+  -if index is odd, move to the next iteration
+
+given a string and a character
+  -split the string into an array of characters
+  -set a counter variable equal to zero
+  -iterate through the array
+    -check if each index it equal to the given character
+    -if equal, add + 1 to the counter variable
+    -if not equal, move to the next iteration
+    -check if counter variable = 3, break and return the current index
+    -otherwise return nil
+
+given two number arrays
+  -create a new empty array
+  -create a counter variable equal to zero
+  -create a stop variable equal to sum of array lengths
+  -until stop variable = 0
+    -if counter variable is even, array1 at index counter = new array at index counter
+    -if counter variable is odd, array2 at index counter = new array at index counter
+    -counter += 1; stop variable -= 1
+  
+
+=end
